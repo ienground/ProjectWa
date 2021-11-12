@@ -1,0 +1,510 @@
+{
+  request_id: "reserved field",
+  result: 0,
+  return_type: "com.google.gson.internal.LinkedTreeMap",
+  return_object: {
+    orgQInfo: {
+      orgQUnit: {
+        strQuestion: "가스파초는 어느 나라의 음식인가요?",
+        strTaggedQ: "<CV_FOOD:가스파초/NNG>+는/JX 어느/MM 나라/NNG+의/JKG 음식/NNG+이/VCP+ㄴ가/EF+요/JX+?/SF",
+        ndoc: {
+          doc_id: "",
+          DCT: "",
+          category: "",
+          category_weight: 0,
+          title: {
+            text: "",
+            NE: ""
+          },
+          metaInfo: {},
+          sentence: [
+            {
+              id: 0,
+              reserve_str: "",
+              text: "가스파초는 어느 나라의 음식인가요?",
+              morp: [
+                {
+                  id: 0,
+                  lemma: "가스파초",
+                  type: "NNG",
+                  position: 0,
+                  weight: 0
+                },
+                {
+                  id: 1,
+                  lemma: "는",
+                  type: "JX",
+                  position: 12,
+                  weight: 0.0287565
+                },
+                {
+                  id: 2,
+                  lemma: "어느",
+                  type: "MM",
+                  position: 16,
+                  weight: 0.0415518
+                },
+                {
+                  id: 3,
+                  lemma: "나라",
+                  type: "NNG",
+                  position: 23,
+                  weight: 0.735824
+                },
+                {
+                  id: 4,
+                  lemma: "의",
+                  type: "JKG",
+                  position: 29,
+                  weight: 0.0694213
+                },
+                {
+                  id: 5,
+                  lemma: "음식",
+                  type: "NNG",
+                  position: 33,
+                  weight: 0.9
+                },
+                {
+                  id: 6,
+                  lemma: "이",
+                  type: "VCP",
+                  position: 39,
+                  weight: 0.0177525
+                },
+                {
+                  id: 7,
+                  lemma: "ㄴ가",
+                  type: "EF",
+                  position: 39,
+                  weight: 0.177706
+                },
+                {
+                  id: 8,
+                  lemma: "요",
+                  type: "JX",
+                  position: 45,
+                  weight: 0.00618742
+                },
+                {
+                  id: 9,
+                  lemma: "?",
+                  type: "SF",
+                  position: 48,
+                  weight: 1
+                }
+              ],
+              morp_eval: [
+                {
+                  id: 0,
+                  result: "가스파초/NNG+는/JX",
+                  target: "가스파초는",
+                  word_id: 0,
+                  m_begin: 0,
+                  m_end: 1
+                },
+                {
+                  id: 1,
+                  result: "어느/MM",
+                  target: "어느",
+                  word_id: 1,
+                  m_begin: 2,
+                  m_end: 2
+                },
+                {
+                  id: 2,
+                  result: "나라/NNG+의/JKG",
+                  target: "나라의",
+                  word_id: 2,
+                  m_begin: 3,
+                  m_end: 4
+                },
+                {
+                  id: 3,
+                  result: "음식/NNG+이/VCP+ㄴ가/EF+요/JX+?/SF",
+                  target: "음식인가요?",
+                  word_id: 3,
+                  m_begin: 5,
+                  m_end: 9
+                }
+              ],
+              WSD: [
+                {
+                  id: 0,
+                  text: "가스파초",
+                  type: "NNG",
+                  scode: "00",
+                  weight: 0,
+                  position: 0,
+                  begin: 0,
+                  end: 0
+                },
+                {
+                  id: 1,
+                  text: "는",
+                  type: "JX",
+                  scode: "00",
+                  weight: 1,
+                  position: 12,
+                  begin: 1,
+                  end: 1
+                },
+                {
+                  id: 2,
+                  text: "어느",
+                  type: "MM",
+                  scode: "01",
+                  weight: 3.2,
+                  position: 16,
+                  begin: 2,
+                  end: 2
+                },
+                {
+                  id: 3,
+                  text: "나라",
+                  type: "NNG",
+                  scode: "01",
+                  weight: 4.4,
+                  position: 23,
+                  begin: 3,
+                  end: 3
+                },
+                {
+                  id: 4,
+                  text: "의",
+                  type: "JKG",
+                  scode: "00",
+                  weight: 1,
+                  position: 29,
+                  begin: 4,
+                  end: 4
+                },
+                {
+                  id: 5,
+                  text: "음식",
+                  type: "NNG",
+                  scode: "00",
+                  weight: 0,
+                  position: 33,
+                  begin: 5,
+                  end: 5
+                },
+                {
+                  id: 6,
+                  text: "이",
+                  type: "VCP",
+                  scode: "01",
+                  weight: 1,
+                  position: 39,
+                  begin: 6,
+                  end: 6
+                },
+                {
+                  id: 7,
+                  text: "ㄴ가",
+                  type: "EF",
+                  scode: "00",
+                  weight: 1,
+                  position: 39,
+                  begin: 7,
+                  end: 7
+                },
+                {
+                  id: 8,
+                  text: "요",
+                  type: "JX",
+                  scode: "00",
+                  weight: 1,
+                  position: 45,
+                  begin: 8,
+                  end: 8
+                },
+                {
+                  id: 9,
+                  text: "?",
+                  type: "SF",
+                  scode: "00",
+                  weight: 1,
+                  position: 48,
+                  begin: 9,
+                  end: 9
+                }
+              ],
+              word: [
+                {
+                  id: 0,
+                  text: "가스파초는",
+                  type: "",
+                  begin: 0,
+                  end: 1
+                },
+                {
+                  id: 1,
+                  text: "어느",
+                  type: "",
+                  begin: 2,
+                  end: 2
+                },
+                {
+                  id: 2,
+                  text: "나라의",
+                  type: "",
+                  begin: 3,
+                  end: 4
+                },
+                {
+                  id: 3,
+                  text: "음식인가요?",
+                  type: "",
+                  begin: 5,
+                  end: 9
+                }
+              ],
+              NE: [
+                {
+                  id: 0,
+                  text: "가스파초",
+                  type: "CV_FOOD",
+                  begin: 0,
+                  end: 0,
+                  weight: 0.114985,
+                  common_noun: 0
+                }
+              ],
+              chunk: [
+                {
+                  id: 0,
+                  text: "가스파초는",
+                  type: "NP",
+                  begin: 0,
+                  end: 1,
+                  weight: 1
+                },
+                {
+                  id: 1,
+                  text: "어느 나라의",
+                  type: "NP",
+                  begin: 2,
+                  end: 4,
+                  weight: 1
+                },
+                {
+                  id: 2,
+                  text: "음식이ㄴ가요?",
+                  type: "VP",
+                  begin: 5,
+                  end: 9,
+                  weight: 1
+                }
+              ],
+              dependency: [
+                {
+                  id: 0,
+                  text: "가스파초는",
+                  head: 3,
+                  label: "NP_SBJ",
+                  mod: [],
+                  weight: 0.769117
+                },
+                {
+                  id: 1,
+                  text: "어느",
+                  head: 2,
+                  label: "DP",
+                  mod: [],
+                  weight: 0.833139
+                },
+                {
+                  id: 2,
+                  text: "나라의",
+                  head: 3,
+                  label: "NP_MOD",
+                  mod: [
+                    1
+                  ],
+                  weight: 0.825518
+                },
+                {
+                  id: 3,
+                  text: "음식인가요?",
+                  head: -1,
+                  label: "VNP",
+                  mod: [
+                    0,
+                    2
+                  ],
+                  weight: 0.358111
+                }
+              ],
+              phrase_dependency: [
+                {
+                  id: 0,
+                  label: "NP_SBJ",
+                  text: "가스파초는",
+                  begin: 0,
+                  end: 0,
+                  key_begin: 0,
+                  head_phrase: 1,
+                  sub_phrase: [],
+                  weight: 0,
+                  element: []
+                },
+                {
+                  id: 1,
+                  label: "S",
+                  text: "P#0@SBJ는 어느 나라의 음식인가요?",
+                  begin: 0,
+                  end: 3,
+                  key_begin: 1,
+                  head_phrase: -1,
+                  sub_phrase: [
+                    0
+                  ],
+                  weight: 0,
+                  element: [
+                    {
+                      text: "어느 나라의 음식",
+                      label: "NP",
+                      begin: 2,
+                      end: 5,
+                      ne_type: ""
+                    },
+                    {
+                      text: "인가요?",
+                      label: "VP",
+                      begin: 6,
+                      end: 9,
+                      ne_type: ""
+                    }
+                  ]
+                }
+              ],
+              SRL: [],
+              relation: [],
+              SA: [],
+              ZA: []
+            }
+          ],
+          entity: []
+        },
+        vQTs: [
+          {
+            qt: 5,
+            strQTClue: "어느"
+          }
+        ],
+        vQFs: [
+          {
+            strQF: "어느 나라",
+            dWeightQF: 0.8636
+          }
+        ],
+        vLATs: [
+          {
+            strLAT: "나라",
+            vCompoundLATs: [],
+            strID: "01",
+            dConfidenceLAT: 0.977757
+          }
+        ],
+        vSATs: [
+          {
+            strSAT: "LCP_COUNTRY",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.841222
+          },
+          {
+            strSAT: "CV_FOOD_STYLE",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.215349
+          },
+          {
+            strSAT: "CV_FOOD",
+            expanse_SAT: [
+              1404,
+              1303,
+              1304,
+              1302,
+              1401
+            ],
+            dConfidenceSAT: 0.250568
+          }
+        ],
+        vSATRoots: [
+          {
+            strSAT: "LC_OTHERS",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.865992
+          },
+          {
+            strSAT: "CV_OTHERS",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.641706
+          },
+          {
+            strSAT: "DT_OTHERS",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.450255
+          },
+          {
+            strSAT: "MT_OTHERS",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.439912
+          },
+          {
+            strSAT: "AM_OTHERS",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.436701
+          },
+          {
+            strSAT: "TI_OTHERS",
+            expanse_SAT: [],
+            dConfidenceSAT: 0.430154
+          }
+        ],
+        vTitles: [
+          {
+            strEntity: "가스파초",
+            strEntityType: "CV_FOOD",
+            dWeightTitle: 0.9,
+            vEntityInfo: [
+              {
+                strNormEntity: "가스파초",
+                strExplain: "가스파초(스페인어: Gazpacho)는 에스파냐 남부의 안달루시아 지방에서 유래된 음식으로서 가스파초라는 명칭은 아라비아어로 '젖은 빵'이라는 뜻이다. 12세기경 에스파냐가 이슬람의 지배를 받았을 때 요리법과 명칭이 함께 전해졌다고 한다. 덥고 건조한 에스파냐의 여름철에 일반 가정에서 흔히 만들어 먹는다.",
+                dWeightEn: 0.035882
+              }
+            ]
+          }
+        ],
+        vQTopic: [
+          {
+            strEntity: "가스파초",
+            strEntityType: "CV_FOOD",
+            dWeightTitle: 0.9,
+            vEntityInfo: [
+              {
+                strNormEntity: "가스파초",
+                strExplain: "가스파초(스페인어: Gazpacho)는 에스파냐 남부의 안달루시아 지방에서 유래된 음식으로서 가스파초라는 명칭은 아라비아어로 '젖은 빵'이라는 뜻이다. 12세기경 에스파냐가 이슬람의 지배를 받았을 때 요리법과 명칭이 함께 전해졌다고 한다. 덥고 건조한 에스파냐의 여름철에 일반 가정에서 흔히 만들어 먹는다.",
+                dWeightEn: 0.035882
+              }
+            ]
+          }
+        ],
+        answerConstraint: [],
+        dIntegrativeConf: 0.904365
+      }
+    },
+    QClassification: {
+      ansQType: {
+        strQType4Chg: "단답형",
+        dWeightCQT: 0.910541
+      },
+      vSemQType: [
+        {
+          "strQType4Chg": "사실관계형-속성값요청형",
+          dWeightCQT: 0.942696
+        }
+      ]
+    }
+  }
+}
