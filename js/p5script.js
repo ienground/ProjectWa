@@ -48,7 +48,11 @@ function draw() {
             let c = colors[(j + i) % colors.length];
             c.setAlpha(50);
             fill(c);
-            circle(wa_datas[i].x - j * wa_datas[i].vy * 10 * (j % 2 - 0.5) / 0.5, wa_datas[i].y + j * wa_datas[i].vx * 10 * (j % 2 - 0.5) / 0.5, 200);
+            // circle(wa_datas[i].x - j * wa_datas[i].vy * 10 * (j % 2 - 0.5) / 0.5, wa_datas[i].y + j * wa_datas[i].vx * 10 * (j % 2 - 0.5) / 0.5, 200);
+            push();
+            translate(wa_datas[i].x - j * wa_datas[i].vy * 10 * (j % 2 - 0.5) / 0.5, wa_datas[i].y + j * wa_datas[i].vx * 10 * (j % 2 - 0.5) / 0.5);
+            drawLiq(18,50,20,100);
+            pop();
         }
 
         textFont(typefaceBold);
@@ -107,6 +111,21 @@ function gotData(data) {
         wa_datas.push({key: k, data: wa_data, gen_time: wa_time, age: wa_age, x: random(0, width), y: random(0, height), vx: random(-2, 2), vy: random(-2, 2)});
         // print(scores);
     }
+}
+
+function drawLiq(vNnum,nm,sm,fcm){
+    push();
+    rotate(frameCount / fcm);
+    let dr = TWO_PI / vNnum;
+    beginShape();
+    for(let i = 0; i < vNnum + 3; i++){
+        let ind = i % vNnum;
+        let rad = dr * ind;
+        let r = (height * 0.3 + noise(frameCount / nm + ind) * height * 0.1 + sin(frameCount / sm + ind) * height * 0.05) * 0.5;
+        curveVertex(cos(rad) * r, sin(rad) * r);
+    }
+    endShape();
+    pop();
 }
 
 function errData(err) {
